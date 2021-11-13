@@ -1,14 +1,10 @@
 body {
     font-family: "Libre Baskerville", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .header {
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    align-items: center; */
+    justify-content: center;
     padding: 20px 0 20px 0px;
     background: #3ea0e6;
     font-size: 23px;
@@ -16,16 +12,12 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 .nav-section {
-    /* justify-content: left;
-    position: relative;
-    align-items: flex-end; */
-
     background: #fc0; /* Цвет фона */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 .nav-section-list {
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row;
 }
 .nav-section-list-order {
     border-style: none;
@@ -38,6 +30,8 @@ body {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .nav-section-list-order-link {
     text-decoration: none;
@@ -45,4 +39,46 @@ body {
 .intro-section {
     display: flex;
     flex-direction: row;
+    background: rgb(17, 49, 109);
+    margin-top: 20px;
+}
+.intro-section-p {
+    text-decoration: darkgoldenrod;
+}
+.pro-section {
+    margin-top: 20px;
+    background: crimson;
+}
+.zombie-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background: chartreuse;
+}
+
+.whatIsPro-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background: rgb(45, 45, 116);
+}
+.goodbad-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background: rgb(15, 131, 125);
+}
+.howTowin-section {
+    margin-top: 20px;
+    background: rgb(138, 132, 132);
+}
+
+.howTowin-section-p {
+    background-color: cornflowerblue;
+}
+
+.howTowin-section-ul {
+    background: darkcyan;
+    display: flex;
+    flex-direction: column;
 }
