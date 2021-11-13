@@ -58,7 +58,7 @@ body {
 
 .whatIsPro-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-top: 20px;
     background: rgb(45, 45, 116);
 }
@@ -80,5 +80,5 @@ body {
 .howTowin-section-ul {
     background: darkcyan;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
