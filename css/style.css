@@ -205,6 +205,10 @@ body {
     padding: 30px;
     border: solid;
 }
+/* .howTowin-section {
+    display: flex;
+    flex-direction: column;
+} */
 .howTowin-section-title {
     padding: 20px 0;
     font-weight: bold;
