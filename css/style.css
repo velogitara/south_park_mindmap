@@ -1,5 +1,6 @@
 body {
-    font-family:'Bitter', serif;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 .header {
     display: flex;
@@ -37,11 +38,13 @@ body {
     text-decoration: none;
 }
 .intro-section {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: row;
     background: rgb(17, 49, 109);
     margin-top: 20px;
-    font-size: 45px;
+    font-size: 40px;
+    color: white;
     padding: 50px 50px ;
 }
 .intro-section-p {
@@ -49,7 +52,8 @@ body {
     margin-top: 15px;
 }
 .greetings {
-    font-weight: 700;
+    font-weight: 500;
+    font-style: italic;
     margin-top: 50px;
 }
 .intro-section-img {
@@ -57,45 +61,93 @@ body {
 }
 .title {
     font-size: 80px;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 900;   
+    color: rgba(235, 219, 0, 0.932);
     text-align: center;
     margin: 60px 0;
 }
-.pro-section {
-    margin-top: 20px;
-    background: crimson;
+.section-title {
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
 }
+
 .zombie-section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    background: chartreuse;
+    padding: 30px 30px ;
+    background: #fff;
+    
 }
-
+.zombie-list {
+    list-style-type: circle;
+    margin-left: 40px;
+}
+.title3 {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .whatIsPro-section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
     display: flex;
     flex-direction: row-reverse;
     margin-top: 20px;
+    padding: 30px 30px ;
     background: rgb(45, 45, 116);
 }
+.whatIsPro-img {
+    margin-top: 100px;
+}
+.pro-list {
+    list-style-type: circle;
+    margin-left: 40px;
+}
 .goodbad-section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
     display: flex;
     flex-direction: row;
     margin-top: 20px;
-    background: rgb(15, 131, 125);
+    background: rgb(165, 236, 233);
+}
+.goodbad-list {
+    list-style-type: circle;
+    margin-left: 30px;
+    padding-left: 40px;
 }
 .howTowin-section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
     margin-top: 20px;
     background: rgb(138, 132, 132);
 }
 
 .howTowin-section-p {
-    background-color: cornflowerblue;
+    background-color: rgb(100, 237, 111);
+    
 }
 
 .howTowin-section-ul {
     background: darkcyan;
     display: flex;
     flex-direction: row;
+    padding: 30px 40px 0 40px ;
+    
+}
+.howTowin-img {
+    margin: 30px 230px;
+    height: 300px;
+}
+.press {
+    text-align: center;
+    margin-left: 210px;
+    font-weight: 700;
 }
