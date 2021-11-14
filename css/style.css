@@ -1,281 +1,348 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    background: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  background: #ffffff;
+  width: 1450px;
 }
 
 /* header */
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 0 20px 0px;
-    background: #5680e9;
-    font-size: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0 20px 0px;
+  background: #5680e9;
+  font-size: 26px;
 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 .nav-section {
-    background: rgb(255, 253, 112); /* Цвет фона */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 20px;
-    margin-left: 20px;
+  background: rgb(255, 253, 112); /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .nav-section-list {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20 0 20;
 }
 .nav-section-list-order {
-    border-style: none;
-    outline-style: none;
-    margin: 0 25px;
+  border-style: none;
+  outline-style: none;
+  margin: 0 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .nav-section-list-order-link-about {
-    background: rgb(255, 253, 112); /* Цвет фона */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-left: 20px;
-    padding: 0 10px;
-    border-radius: 20px;
-    text-decoration: none;
-    outline-style: none;
+  background: rgb(255, 253, 112); /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  outline-style: none;
 }
 .nav-section-list-order-link {
-    text-decoration: none;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
 /* intro-section */
 .intro-section {
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    flex-direction: row;
-    background: #5ab9ea;
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 40px;
-    font-size: 40px;
-    font-style: italic;
-    color: white;
-    padding: 50px 50px;
-    justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  background: #5ab9ea;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 40px;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  padding: 50px 20px 50px 50px;
+  justify-content: center;
 }
 .intro-section-p {
-    text-decoration: darkgoldenrod;
-    margin-top: 15px;
+  text-decoration: darkgoldenrod;
+  margin-top: 15px;
+  text-align: justify;
 }
 .greetings {
-    font-weight: 600;
-    margin-top: 50px;
-    font-size: 38px;
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 38px;
+  text-align: center;
+  color: #5111c7;
 }
 .intro-section-img {
-    margin-top: 20px;
-    margin-left: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 .intro-section-img-pic {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 .title {
-    font-size: 80px;
-    font-weight: 900;
-    color: rgba(235, 219, 0, 0.932);
-    text-align: center;
-    margin: 60px 0;
-    text-shadow: 0 0 10px rgb(20, 33, 94);
-    text-transform: capitalize;
-    text-rendering: geometricPrecision;
-    text-overflow: clip;
-    text-decoration: underline;
+  font-size: 80px;
+  font-weight: 900;
+  color: rgba(235, 219, 0, 0.932);
+  text-align: center;
+  margin: 60px 0;
+  text-shadow: 0 0 10px rgb(20, 33, 94);
+  text-transform: capitalize;
+  text-rendering: geometricPrecision;
+  text-overflow: clip;
+  text-decoration: underline;
 }
 /* zombie-section */
 
 .zombie-section {
-    font-family: "Montserrat", sans-serif;
-    font-size: 45px;
-    display: flex;
-    flex-direction: row;
-    margin: 20px 100px 0 100px;
-    border-radius: 40px;
-    padding: 30px 30px;
-    background: #c1c8c4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 100px 0 100px;
+  border-radius: 40px;
+  padding: 30px 30px;
+  background: #c1c8c4;
+  text-align: justify;
 }
 .zombie-section-pic {
-    border-radius: 20px;
-    margin-right: 50px;
-    margin-top: 20px;
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-top: 20px;
 }
 .zombie-section-title {
-    font-size: 55px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    color: #fff;
-    text-shadow: 0 0 10px rgb(20, 33, 94);
+  font-size: 55px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #fff;
+  text-shadow: 0 0 10px rgb(20, 33, 94);
 }
 
 .zombie-list {
-    list-style-type: circle;
-    margin-left: 40px;
+  list-style-type: circle;
+  margin-left: 40px;
 }
 .title3 {
-    font-size: 42px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.zombie-section-title-h3 {
+  color: #574d7c;
+  font-size: 20px;
+  font-weight: bold;
 }
 /* что такое прокрастинация */
+.class="whatIs-section" {
+  font-size: 20px;
+  padding: 10px;
+}
 
 .whatIsPro-section {
-    font-family: "Montserrat", sans-serif;
-    font-size: 45px;
-    color: #fff;
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 20px 100px 0 100px;
-    border-radius: 40px;
-    padding: 30px 30px;
-    background: #5680e9;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px 100px 0 100px;
+  border-radius: 40px;
+  padding: 30px 30px;
+  background: #5680e9;
+}
+.whatIs-section {
+  text-align: justify;
+  padding: 10px;
+  margin-right: 40px;
 }
 .whatIsPro-img {
-    margin-top: 100px;
+  margin-top: 50px;
 }
-
+.whatIs-section-prokr {
+  font-size: 22px;
+  color: #fccd04;
+}
 .whatIsPro-img-pic {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 .whatIs-section-title {
-    padding-bottom: 20px;
-    font-weight: bold;
-    color: #fccd04;
-    text-shadow: 0 0 10px rgb(20, 33, 94);
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #fccd04;
+  text-shadow: 0 0 10px rgb(20, 33, 94);
 }
 .pro-list {
-    list-style-type: circle;
-    margin-left: 40px;
+  list-style-type: circle;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  text-align: justify;
 }
 
 /* Плюсы и Минусы */
 
 .goodbad-section {
-    font-family: "Montserrat", sans-serif;
-    font-size: 45px;
-    display: flex;
-    flex-direction: row;
-    margin: 20px 100px 0 100px;
-    border-radius: 40px;
+  font-family: "Montserrat", sans-serif;
 
-    background: rgb(165, 236, 233);
+  display: flex;
+  flex-direction: row;
+  margin: 20px 100px 0 100px;
+  border-radius: 40px;
+
+  background: rgb(165, 236, 233);
 }
 .goodbad-section-title {
-    margin: 20px 0 20px 50px;
-    font-weight: bold;
-    color: #be008e;
-    text-shadow: 0 0 10px rgb(109, 109, 109);
+  margin: 20px 0 20px 50px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #be008e;
+  text-shadow: 0 0 10px rgb(109, 109, 109);
+  text-align: center;
 }
 .goodbad-list {
-    list-style-type: circle;
-    margin-left: 30px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-    padding-right: 20px;
+  list-style-type: circle;
+  font-size: 18px;
+  margin-left: 30px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  text-align: justify;
 }
-
+.bad-section {
+  margin-right: 100px;
+}
+.good-section {
+  margin-right: 100px;
+}
 /* Как бороться */
 /* Question for MENTOR */
 .howTowin-section {
-    font-family: "Montserrat", sans-serif;
-    font-size: 45px;
-    background: #5680e9;
-    padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    margin: 20px 100px 0 100px;
-    border-radius: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  background: #5680e9;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 100px 0 100px;
+  border-radius: 40px;
 }
 
 .howTowin-section-p {
-    background-color: rgb(100, 237, 111);
-    font-style: italic;
-    font-weight: 600;
-    padding: 30px;
-    border: solid;
+  background-color: rgb(100, 237, 111);
+  font-style: italic;
+  font-weight: 600;
+  padding: 30px;
+  border: solid;
+  text-align: center;
 }
 /* .howTowin-section {
     display: flex;
     flex-direction: column;
 } */
 .howTowin-section-title {
-    padding: 20px 0;
-    font-weight: bold;
-    color: #fccd04;
-    text-shadow: 0 0 10px rgb(20, 33, 94);
-    text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+  color: #fccd04;
+  text-shadow: 0 0 10px rgb(20, 33, 94);
+  text-align: center;
 }
 .howTowin-section-ul {
-    background: rgb(165, 236, 233);
-    display: flex;
-    flex-direction: row;
-    margin: 30px 40px 30px 40px;
+  font-size: 18px;
+  background: rgb(165, 236, 233);
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px 10px 10px 10px;
+  text-align: center;
 }
 
 .howTowin-method {
-    margin: 0px 20px 0px 20px;
-    padding: 0 40px 20px 0;
+  margin: 0px 20px 0px 20px;
+  padding: 0 40px 20px 0;
 }
 
 .howTowin-img {
-    margin: 30px 230px;
-    height: 300px;
-    border: solid chartreuse;
-    border-radius: 20px;
+  margin: 30px 30px;
+
+  border: solid chartreuse;
+  border-radius: 20px;
+}
+.title3 {
+  font-size: 25px;
+  color: #574d7c;
 }
 
 /* mind-map */
 .mindmap-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 20px 100px 0 100px;
-    border-radius: 40px;
-    background: #5ab9ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 100px 0 100px;
+  border-radius: 40px;
+  background: #5ab9ea;
 }
 .mindmap {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .mindmap-link {
-    border-radius: 60px;
-    align-self: center;
-    text-decoration: none;
-    outline-style: none;
-    margin-top: 20px;
-    border: solid oldlace;
+  border-radius: 60px;
+  align-self: center;
+  text-decoration: none;
+  outline-style: none;
+  margin-top: 20px;
+  border: solid oldlace;
 }
 .mindmap-img {
-    border-radius: 60px;
+  border-radius: 60px;
 }
 .press {
-    font-weight: 700;
-    text-align: center;
-    font-size: 60px;
-    color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
 }
 .mindmap-description {
-    margin-right: 55px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 45px;
-    padding: 30px;
+  margin-right: 55px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  padding: 30px;
+  text-align: justify;
+  font-weight: bold;
 }
 .about-author {
-    font-family: "Montserrat", sans-serif;
-    margin-top: 20px;
-    font-size: 45px;
-    color: white;
-    background: #5680e9;
-    padding: 30px 30px 80px 30px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+  background: #5680e9;
+  padding: 30px 30px 80px 30px;
+  text-align: center;
+}
+}
+.title4 {
+  font-size: 45px;
+  text-align: center;
+  color: #5111c7;
+}
+.header{
+    width: 1450px;
+    padding: 10 10 10 10;
+}
+.footer{
+    width: 1450px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
