@@ -216,23 +216,31 @@ body {
     text-shadow: 0 0 10px rgb(20, 33, 94);
     text-align: center;
 }
-.howTowin-section-ul {
+/* .howTowin-section-ul {
     background: rgb(165, 236, 233);
     display: flex;
     flex-direction: row;
     margin: 30px 40px 30px 40px;
+} */
+.howTowin-method-box {
+    background: rgb(165, 236, 233);
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
 }
-
 .howTowin-method {
     margin: 0px 20px 0px 20px;
     padding: 0 40px 20px 0;
 }
-
+.fig {
+    text-align: center;
+}
 .howTowin-img {
-    margin: 30px 230px;
+    /* margin: 30px 230px; */
     height: 300px;
-    border: solid chartreuse;
+    border: solid #fccd04;
     border-radius: 20px;
+    justify-content: center;
 }
 
 /* mind-map */
