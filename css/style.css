@@ -1,11 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    
 }
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px 0 20px 0px;
     background: #3ea0e6;
     font-size: 26px;
@@ -13,7 +12,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 .nav-section {
-    background: #fc0; /* Цвет фона */
+    background: rgb(255, 253, 112); /* Цвет фона */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 .nav-section-list {
@@ -26,7 +25,7 @@ body {
     margin: 0 25px;
 }
 .nav-section-list-order-link-about {
-    background: #fc0; /* Цвет фона */
+    background: rgb(255, 253, 112); /* Цвет фона */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
     padding-left: 10px;
@@ -44,6 +43,7 @@ body {
     background: rgb(17, 49, 109);
     margin-top: 20px;
     font-size: 40px;
+    font-style: italic;
     color: white;
     padding: 50px 50px ;
 }
@@ -52,9 +52,9 @@ body {
     margin-top: 15px;
 }
 .greetings {
-    font-weight: 500;
-    font-style: italic;
+    font-weight: 600;
     margin-top: 50px;
+    font-size: 38px;
 }
 .intro-section-img {
     margin-left: 50px;
@@ -70,7 +70,8 @@ body {
     font-size: 55px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .zombie-section {
@@ -97,6 +98,7 @@ body {
 .whatIsPro-section {
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
+    color: #fff;
     display: flex;
     flex-direction: row-reverse;
     margin-top: 20px;
@@ -115,7 +117,6 @@ body {
     font-size: 45px;
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
     background: rgb(165, 236, 233);
 }
 .goodbad-list {
@@ -126,12 +127,13 @@ body {
 .howTowin-section {
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
-    margin-top: 20px;
-    background: rgb(138, 132, 132);
+    background: rgb(32, 36, 90);
 }
 
 .howTowin-section-p {
     background-color: rgb(100, 237, 111);
+    font-style: italic;
+    font-weight: 600;
     
 }
 
@@ -139,15 +141,29 @@ body {
     background: darkcyan;
     display: flex;
     flex-direction: row;
-    padding: 30px 40px 0 40px ;
+    margin: 30px 40px 30px 40px;
     
 }
 .howTowin-img {
     margin: 30px 230px;
     height: 300px;
 }
+.howTowin-method {
+    margin: 0px 20px 0px 20px;
+
+}
 .press {
     text-align: center;
     margin-left: 210px;
     font-weight: 700;
+}
+.mindmap-description {
+    margin-right: 55px;
+}
+.about-author{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: white;
+    background: rgb(32, 36, 90);
+    padding: 30px 30px 30px 30px;
 }
